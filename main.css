@@ -5,6 +5,12 @@
 	padding: 0;
 }
 
+body {
+    margin: 0-auto;
+    padding: 0;
+    
+    
+}
 a {
 	color: #AA3C3C;
 	text-decoration: underline;
@@ -201,3 +207,5 @@ ul {
 	padding-top: 0;
 	border-top: 0;
 }
+
+@media (min-width)
