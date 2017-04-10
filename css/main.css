@@ -1,0 +1,104 @@
+body {
+  max-width: 58em;
+  padding: 0 1em;
+  margin: 0 auto;
+  }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  }
+
+  h2,h3,h4 {
+	margin-bottom: 1.25em;
+	font-family: montserrat, sans-serif;
+	color: #000000;
+	}
+
+	#main {
+	color: #4a4a4a;
+	}
+	body {
+	font-size: 12pt;
+	line-height: 2em;
+	font-family: Montserrat, sans-serif;
+	background: #f2f2f2 ;
+	color: #3d3d3d;
+}
+
+h1 {
+    color: #ff471a;
+}
+ul {
+margin-bottom: 1.75em;
+
+}
+
+ul li {
+padding: 8px 0 8px 0;
+	border-top: dotted 1px #c9c9c9;
+}
+
+
+
+
+/* --- wider screens --- */
+
+/* wide */
+
+@media (min-width: 48em) {
+h1{
+  font-size 6em;
+  width: 980px;
+	height: 0px;
+	line-height: 200px;
+ padding-left: 300px;
+}
+
+.group {
+  float: left;
+  width: 47.5%;
+  margin-left: 5%;
+  }
+
+main .group:first-child {
+  margin-left: 0;
+  }
+
+}
+
+/* wider */
+
+@media (min-width: 60em) {
+
+main .group:first-child  {
+  float: none;
+  width: 100%;
+  overflow: hidden;
+  }
+
+main .group:first-child section {
+  float: left;
+  width: 47.5%;
+  margin-left: 5%;
+  }
+
+main .group:first-child section:first-child,
+section.group {
+  margin-left: 0;
+  }
+
+
+h1{
+  font-size 6em;
+  width: 980px;
+	height: 0px;
+	line-height: 250px;
+ padding-left: 400px;
+}
+
+
+
+}
+
